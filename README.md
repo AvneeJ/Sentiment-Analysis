@@ -6,7 +6,7 @@ This repository contains a Python script for sentiment analysis on a dataset of 
 Libaries used:
 The script uses numpy, pandas, re, nltk, matplotlib, seaborn, and plotly
 
-Data Preprocessing:
+Data preprocessing:
 The script performs the following preprocessing steps on the tweet data:
   Removal of Twitter handles
   Removal of hashtags
@@ -15,7 +15,7 @@ The script performs the following preprocessing steps on the tweet data:
   Removal of single characters
   Substitution of multiple spaces with a single space
 
-Sentiment Analysis:
+Sentiment analysis:
 Sentiment analysis is conducted using the NLTK Vader library. The script creates new columns for positive, neutral, and negative sentiment scores, and a small constant is added to each score to avoid division by zero.
 
 Visualisations:
